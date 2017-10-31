@@ -49,9 +49,9 @@ config.xml中的操作：
 在$ionicPlatform.ready事件中的处理:
 ```javascript
 // 隐藏启动页
-    if (navigator.splashscreen) {
-      navigator.splashscreen.hide();
-    }
+if (navigator.splashscreen) {
+  navigator.splashscreen.hide();
+}
     
 ```
 
