@@ -26,8 +26,11 @@ More info on this can be found on the Ionic [Getting Started](https://ionicframe
 Issues have been disabled on this repo. If you do find an issue or have a question, consider posting it on the [Ionic Forum](https://forum.ionicframework.com/). If there is truly an error, follow our guidelines for [submitting an issue](https://ionicframework.com/submit-issue/) to the main Ionic repository.
 
 ### 关于ionic 启动页相关事项
+- 安装安卓平台：$ `cordova platform add android` 初次初始化需要添加安卓平台
 - 启动页图片路径：/resources/splash.png 最小尺寸：2208 * 2208
-- 图标图片路径：/resources/icon.png 尺寸：1024 * 1024
-- 自动裁剪: $ `ionic resources`
+- 图标图片路径：/resources/icon.png 合适尺寸：1024 * 1024
+- 自动裁剪: $ `ionic cordova resources android` 为安卓生成对应的图标和启动页 初次使用可能需要登陆后使用
 
+### 免责声明
+- 图标和启动页使用淘宝相关图片，版权归淘宝所有，仅作学习使用
 
