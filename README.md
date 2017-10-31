@@ -59,6 +59,8 @@ if (navigator.splashscreen) {
 ### 相关博客学习参考
 - http://blog.csdn.net/zapzqc/article/details/42237935
 - http://blog.csdn.net/zapzqc/article/details/41802453
+- http://blog.csdn.net/tyro_java/article/details/74606239
+
 ### 免责声明
 - 图标和启动页使用淘宝相关图片，版权归淘宝所有，仅作学习使用
 
