@@ -34,7 +34,7 @@ Issues have been disabled on this repo. If you do find an issue or have a questi
 - 图标图片路径：/resources/icon.png 合适尺寸：1024 * 1024
 - 自动裁剪: $ `ionic cordova resources android` 为安卓生成对应的图标和启动页 初次使用可能需要登陆后使用
 
-### 关于启动页的相关设置
+### 关于启动页的相关设置,加载完成立即隐藏启动页
 config.xml中的操作：
 1. 添加
 ```xml
