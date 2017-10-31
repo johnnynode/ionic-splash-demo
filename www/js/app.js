@@ -20,6 +20,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
     }
+    // 隐藏启动页
+    if (navigator.splashscreen) {
+      navigator.splashscreen.hide();
+    }
+
   });
 })
 
